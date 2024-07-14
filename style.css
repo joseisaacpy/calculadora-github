@@ -1,0 +1,49 @@
+/* Corpo */
+body {
+  margin: 10px;
+  padding: 10px;
+  border: solid 3px black;
+  background-image: url();
+  text-align: center;
+}
+/* Textos */
+h2 {
+  font-size: 40px;
+}
+strong {
+  color: darkred;
+  font-size: 30px;
+  text-decoration: underline;
+}
+/* Input num1 e num2 */
+input {
+  text-align: center;
+  font-size: 30px;
+  width: auto;
+  height: 50px;
+  font-weight: bold;
+}
+/* Botões */
+input.botao {
+  cursor: pointer;
+  margin: 10px 2px;
+  padding: 5px;
+  transition: all 0.4s;
+  font-weight: bolder;
+}
+input.botao:hover {
+  opacity: 0.6;
+  border-radius: 15px;
+}
+input#adicao {
+  background-color: rgb(0, 200, 0);
+}
+input#subtracao {
+  background-color: rgb(200, 10, 10);
+}
+input#multiplicacao {
+  background-color: rgb(3, 3, 255);
+}
+input#divisao {
+  background-color: rgb(248, 157, 0);
+}
