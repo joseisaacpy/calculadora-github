@@ -6,6 +6,6 @@
 - CSS;
 - JS.
 
-## Como já falado, é muito simples e com pouqíssimo estilo e interatividade, faz apenas o básico, como adicionar, subtrair, multiplicar e dividir.
+## Como já falado, é muito simples e com pouquíssimo estilo e interatividade, faz apenas o básico, como adicionar, subtrair, multiplicar e dividir.
 
 ## Até breve...
