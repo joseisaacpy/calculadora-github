@@ -10,8 +10,10 @@
   </head>
   <body>
     <main>
+      <h1>Minha Calculadora</h1>
       <h2>Número 01:</h2>
       <input
+        autofocus
         type="number"
         name="numero1"
         id="numero1"
@@ -25,19 +27,62 @@
         placeholder="Digite outro número:"
       />
       <br />
-      <h2 id="resultado">O resultado é : <strong>___</strong></h2>
-      <input id="adicao" class="botao" type="button" value="Adição" />
-      <input id="subtracao" class="botao" type="button" value="Subtração" />
+      <h2 id="resultado">O resultado é : <span></span></h2>
+      <br />
       <input
+        onclick="somar()"
+        id="adicao"
+        class="botao"
+        type="button"
+        value="Adição"
+      />
+      <input
+        onclick="subtrair()"
+        id="subtracao"
+        class="botao"
+        type="button"
+        value="Subtração"
+      />
+      <input
+        onclick="multiplicar()"
         id="multiplicacao"
         class="botao"
         type="button"
         value="Multiplicação"
       />
-      <input id="divisao" class="botao" type="button" value="Divisão" />
+      <input
+        onclick="dividir()"
+        id="divisao"
+        class="botao"
+        type="button"
+        value="Divisão"
+      />
     </main>
     <footer>
-      <script></script>
+      <script>
+        // Definir variáveis
+        var n1 = document.querySelector("#numero1");
+        var n2 = document.querySelector("#numero2");
+        var resultado = document.querySelector("span");
+        // Criar funçao soma
+        function somar() {
+          // resultado.innerHTML = n1.value + n2.value;
+          resultado.innerHTML = Number(n1.value) + Number(n2.value);
+        }
+        // Criar funçao subtração
+        function subtrair() {
+          resultado.innerHTML = Number(n1.value) - Number(n2.value);
+        }
+        // Criar funçao multiplicação
+        function multiplicar() {
+          resultado.innerHTML = Number(n1.value) * Number(n2.value);
+        }
+        // Criar funçao divisão
+        function dividir() {
+          resultado.innerHTML = Number(n1.value) / Number(n2.value);
+        }
+        // Com as funções criadas, é só chamar ao clicar nos botões (usar onclick).
+      </script>
     </footer>
   </body>
 </html>

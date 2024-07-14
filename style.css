@@ -1,30 +1,40 @@
 /* Corpo */
+* {
+  font-family: "Courier New", Courier, monospace;
+}
 body {
   margin: 10px;
   padding: 10px;
   border: solid 3px black;
-  background-image: url();
   text-align: center;
 }
 /* Textos */
-h2 {
+h1 {
   font-size: 40px;
+  text-shadow: 1px 1px 1px;
 }
-strong {
+h2 {
+  font-size: 30px;
+}
+span {
   color: darkred;
   font-size: 30px;
   text-decoration: underline;
+  transition: all 0.5s;
 }
 /* Input num1 e num2 */
 input {
   text-align: center;
-  font-size: 30px;
-  width: auto;
-  height: 50px;
+  font-size: 25px;
+  width: 320px;
+  /* width: auto; */
+  height: 40px;
   font-weight: bold;
+  border: solid 2px black;
 }
 /* Botões */
 input.botao {
+  width: auto;
   cursor: pointer;
   margin: 10px 2px;
   padding: 5px;
