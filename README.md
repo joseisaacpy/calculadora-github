@@ -1,11 +1,13 @@
 # Minha Primeira Calculadora
 
-## Olá 👋🏾! O projeto consiste numa calculadora extremamente simples, onde possui apenas:
+## Olá 👋🏾! O projeto consiste em uma calculadora extremamente simples, que possui apenas:
 
 - HTML;
 - CSS;
 - JS.
 
-## Como já falado, é muito simples e com pouquíssimo estilo e interatividade, faz apenas o básico, como adicionar, subtrair, multiplicar e dividir.
+## Como já foi dito, é muito simples e com pouquíssimo estilo e interatividade, fazendo apenas o básico: adicionar, subtrair, multiplicar e dividir.
 
-## Até breve...
+[<img src="./print.png" alt="calc">]
+
+### Até breve...
